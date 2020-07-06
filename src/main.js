@@ -3,8 +3,12 @@ import App from './App.vue'
 import router from './router'
 import './plugins/element.js'
 import Echarts from 'echarts'
+import VueEcharts from 'vue-echarts'
+import './style/index.css'
 Vue.config.productionTip = false
 Vue.prototype.$echarts = Echarts
+Vue.component('v-charts', VueEcharts)
+
 new Vue({
   router,
   render: h => h(App)

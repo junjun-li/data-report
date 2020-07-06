@@ -25,10 +25,10 @@
   </div>
 </template>
 <script>
-import TotalSales from '../TotalSales'
-import TodayUsers from '../TodayUsers'
-import TotalOrders from '../TotalOrders'
-import TotalUsers from '../TotalUsers'
+import TotalSales from './child/TotalSales'
+import TodayUsers from './child/TodayUsers'
+import TotalOrders from './child/TotalOrders'
+import TotalUsers from './child/TotalUsers'
 
 export default {
   components: {
