@@ -1,5 +1,5 @@
 <template>
-  <common-card title="累计用户数"
+  <el-card title="累计用户数"
                value="1,064,553">
     <template>
       <!--      <div id="total-users-chart"-->
@@ -21,7 +21,7 @@
         </div>
       </div>
     </template>
-  </common-card>
+  </el-card>
 </template>
 <script>
 import commonCardMixin from '@/mixins/commonCardMixin'
@@ -116,7 +116,7 @@ export default {
     }
   },
   mounted() {
-
+    // debugger
   }
 }
 </script>
@@ -134,6 +134,3 @@ export default {
   }
 }
 </style>
-<!--<svg t="1593843928241" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2088" width="200" height="200"><path d="M273.6 431l212.9 212.9c14.1 14.1 36.9 14.1 50.9 0l213-212.9c22.7-22.7 6.6-61.5-25.5-61.5H299.1c-32.1 0-48.1 38.8-25.5 61.5z" p-id="2089"></path></svg>-->
-
-<!--<svg t="1593843961584" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2835" width="200" height="200"><path d="M273.6 593l212.9-212.9c14.1-14.1 36.9-14.1 50.9 0l213 212.9c22.7 22.7 6.6 61.5-25.5 61.5H299.1c-32.1 0-48.1-38.8-25.5-61.5z" p-id="2836"></path></svg>-->

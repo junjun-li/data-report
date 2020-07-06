@@ -1,5 +1,5 @@
 <template>
-  <common-card title="累计订单量"
+  <el-card title="累计订单量"
                value="2,115,465">
     <template>
 <!--      <div id="total-orders-chart"-->
@@ -12,7 +12,7 @@
         <span class="money">2000000</span>
       </div>
     </template>
-  </common-card>
+  </el-card>
 </template>
 <script>
 import commonCardMixin from '@/mixins/commonCardMixin'
@@ -50,8 +50,7 @@ export default {
           left: 0,
           right: 0
         }
-      },
-      a: ''
+      }
     }
   },
   mounted() {

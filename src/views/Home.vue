@@ -12,6 +12,7 @@ import BottomView from '../components/BottomView'
 import MapView from '../components/MapView'
 import SalesView from '../components/SalesView'
 import TopView from '../components/TopView'
+
 export default {
   name: 'Home',
   components: {
