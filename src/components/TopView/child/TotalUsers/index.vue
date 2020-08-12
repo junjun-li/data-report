@@ -1,5 +1,5 @@
 <template>
-  <el-card title="累计用户数"
+  <common-card title="累计用户数"
                value="1,064,553">
     <template>
       <!--      <div id="total-users-chart"-->
@@ -21,7 +21,7 @@
         </div>
       </div>
     </template>
-  </el-card>
+  </common-card>
 </template>
 <script>
 import commonCardMixin from '@/mixins/commonCardMixin'

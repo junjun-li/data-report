@@ -25,29 +25,29 @@
             </div>
             <div class="table-wrapper">
               <el-table
-                :data="tableData"
-                style="width: 100%">
+                  :data="tableData"
+                  style="width: 100%">
                 <el-table-column
-                  prop="date"
-                  label="日期"
-                  width="180">
+                    prop="date"
+                    label="日期"
+                    width="180">
                 </el-table-column>
                 <el-table-column
-                  prop="name"
-                  label="姓名"
-                  width="180">
+                    prop="name"
+                    label="姓名"
+                    width="180">
                 </el-table-column>
                 <el-table-column
-                  prop="address"
-                  label="地址">
+                    prop="address"
+                    label="地址">
                 </el-table-column>
               </el-table>
             </div>
             <div class="pagination-wrapper">
               <el-pagination
-                background
-                layout="prev, pager, next"
-                :total="1000">
+                  background
+                  layout="prev, pager, next"
+                  :total="1000">
               </el-pagination>
             </div>
           </div>
@@ -252,7 +252,7 @@ export default {
                 show: true,
                 position: 'outter',
                 formatter: function (params) {
-                  console.log(params)
+                  // console.log(params)
                   return `${params.data.legendName} | ${params.data.percent}`
                 }
               }
@@ -296,7 +296,7 @@ export default {
           trigger: 'item', // 默认传入item
           // 自定义展示信息
           formatter: function (params) {
-            console.log(params)
+            // console.log(params)
             return `${params.seriesName}<br/>
 ${params.marker} ${params.name}<br/>
 数量: ${params.data.value}<br/>
@@ -308,7 +308,7 @@ ${params.marker} ${params.name}<br/>
   }
 }
 </script>
-<style lang='scss'
+<style lang="scss"
        scoped>
 .bottom-view {
   margin-top: 20px;

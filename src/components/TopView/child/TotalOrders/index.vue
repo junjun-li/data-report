@@ -1,9 +1,9 @@
 <template>
-  <el-card title="累计订单量"
-               value="2,115,465">
+  <common-card title="累计订单量"
+           value="2,115,465">
     <template>
-<!--      <div id="total-orders-chart"-->
-<!--           :style="{width:'100%',height:'100%'}"></div>-->
+      <!--      <div id="total-orders-chart"-->
+      <!--           :style="{width:'100%',height:'100%'}"></div>-->
       <v-charts :options="options"></v-charts>
     </template>
     <template v-slot:footer>
@@ -12,12 +12,16 @@
         <span class="money">2000000</span>
       </div>
     </template>
-  </el-card>
+  </common-card>
 </template>
 <script>
 import commonCardMixin from '@/mixins/commonCardMixin'
+// import CommonCard from '@/components/CommonCard/index.vue'
 
 export default {
+  // components: {
+  //   CommonCard
+  // },
   mixins: [commonCardMixin],
   data() {
     return {
